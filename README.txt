@@ -2,7 +2,7 @@ PFCU Salesforce Collaboration Repository
 
 Please Install Heroku Toolbelt (https://toolbelt.heroku.com/) and Github Desktop (https://desktop.github.com/)
 
-After installation, run "git config --global http.sslVerify false" in the command line
+After installation, run "git config --global http.sslVerify false" in the command prompt
 
 Create a Github account in the format of first initial, last name, PFCU. 
 IE
