@@ -81,6 +81,31 @@ As a Technical Architect, I want to be able to create a system recommendation so
 •	Information is stored in application database
 •	Following data is required:
 o	Name ,  Description , ranking/order
+Reuse  1-5
+1)	Asset is not used across business areas or business domains
+2)	Asset has the ability to support two business domains
+3)	Asset has the ability to support multiple business domains
+4)	Asset has the ability to support multiple business areas
+5)	Asset has the ability to support the enterprise
+
+Architecture Alignment 1-5
+1)	Asset does not align with architecture standards (waiver does not exist)
+2)	Asset does not align with architectural standards (waiver exists)
+3)	Asset aligns with all architecture principles and standards but is not a target state platform
+4)	Asset aligns with all architecture principles and standards and is a target state platform
+5)	Asset aligns with all architecture principles and standards and is a target state platform from a strategic partner
+
+Life Stage 1-5
+1)	Asset is new in all three areas : new to PenFed,  new to Supplier, new to industry --(bleeding edge)
+2)	Asset is new in two of three areas: new PenFed,  new to Supplier, new to industry -- (cutting edge)
+3)	Asset is new in one of three areas: new PenFed,  new to Supplier and a new industry offering 
+4)	Asset is an established product , from an established supplier that PenFed has experience 
+5)	Asset is an established product , from an strategic supplier that PenFed has experience
+
+Security
+1)	Asset does not comply with security standards and no plan is in place to  address gap
+2)	Asset does not comply with security standards but a plan to address gap is in place
+5)	Asset complies with security standards
 
 
 ===============================In Progress===============================
@@ -142,31 +167,7 @@ Usability 1-5
 5.	The usability of the asset greatly enhances a user’s productivity 
 
 -----ASSIGNED ANISHA	
-Reuse  1-5
-1)	Asset is not used across business areas or business domains
-2)	Asset has the ability to support two business domains
-3)	Asset has the ability to support multiple business domains
-4)	Asset has the ability to support multiple business areas
-5)	Asset has the ability to support the enterprise
 
-Architecture Alignment 1-5
-1)	Asset does not align with architecture standards (waiver does not exist)
-2)	Asset does not align with architectural standards (waiver exists)
-3)	Asset aligns with all architecture principles and standards but is not a target state platform
-4)	Asset aligns with all architecture principles and standards and is a target state platform
-5)	Asset aligns with all architecture principles and standards and is a target state platform from a strategic partner
-
-Life Stage 1-5
-1)	Asset is new in all three areas : new to PenFed,  new to Supplier, new to industry --(bleeding edge)
-2)	Asset is new in two of three areas: new PenFed,  new to Supplier, new to industry -- (cutting edge)
-3)	Asset is new in one of three areas: new PenFed,  new to Supplier and a new industry offering 
-4)	Asset is an established product , from an established supplier that PenFed has experience 
-5)	Asset is an established product , from an strategic supplier that PenFed has experience
-
-Security
-1)	Asset does not comply with security standards and no plan is in place to  address gap
-2)	Asset does not comply with security standards but a plan to address gap is in place
-5)	Asset complies with security standards
 
 ===============================Unworked===============================
 
