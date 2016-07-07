@@ -107,11 +107,6 @@ Security
 2)	Asset does not comply with security standards but a plan to address gap is in place
 5)	Asset complies with security standards
 
-
-===============================In Progress===============================
-
-
------ASSIGNED TAWSIF
 As an application owner, I want to be able to create an assessment of systems in PenFed Portfolio so that I can assess the operation of each system
 •	User most fill in all required data before assessment can occur
 •	Information is stored in application database
@@ -144,6 +139,8 @@ Agility 1-5
 3.	Asset takes a moderate amount of time to respond to requirement changes	
 4.	Asset is fairly simple to maintain and tailor to meet business needs	
 5.	Asset is easy to maintain and tailor to meet business needs; it is highly responsive to requirement changes
+
+===============================In Progress===============================
 
 
 -----ASSIGNED TREMAYNE	
