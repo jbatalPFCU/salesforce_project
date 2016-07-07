@@ -1,4 +1,4 @@
-===============================COMPLETE===============================
+﻿===============================COMPLETE===============================
 
 As a Technical Architect, I want to be able to add systems to PenFed’s Portfolio so that an accurate list of systems used by PenFed is maintained
 •	User most fill in all required data before system can be added
@@ -85,17 +85,65 @@ o	Name ,  Description , ranking/order
 
 ===============================In Progress===============================
 
+
+-----ASSIGNED TAWSIF
 As an application owner, I want to be able to create an assessment of systems in PenFed Portfolio so that I can assess the operation of each system
 •	User most fill in all required data before assessment can occur
 •	Information is stored in application database
 •	Following data is required:
 o	Availability , Scalability , Supportability , Agility
-•	
+
+Availability 
+1)	Asset cannot support PenFed’s availability requirements and there is no plan in place to address gap
+2)	Asset cannot support PenFed’s availability requirements and there is a plan in place to address gap
+5)	Asset can support PenFed’s availability requirements
+
+Scalability 
+1)	Asset cannot scale to be meet expected volumes
+2)	Asset can scale to meet expected volumes but requires significate investment
+3)	Asset can scale to meet expected volumes but requires moderate investment
+4)	Asset can scale to meet expected volumes but requires minor investment
+5)	Asset can scale to meet expected volumes with no investment
+Security
+1)	Asset does not comply with security standards and no plan is in place to  address gap
+2)	Asset does not comply with security standards but a plan to address gap is in place
+5)	Asset complies with security standards
+
+Supportability 
+1)	Asset is highly unstable and requires major maintenance effort
+2)	Asset is fairly unstable and requires significant maintenance effort
+3)	Asset is moderately stable and requires moderate maintenance effort
+4)	Asset is somewhat unstable but required maintenance is minor
+5)	Asset is stable and has few or no issues at all to keep it running
+
+Agility 1-5
+1.	Asset takes a very long time to respond to requirement changes
+2.	Asset takes a significant amount of time to respond to requirement changes	
+3.	Asset takes a moderate amount of time to respond to requirement changes	
+4.	Asset is fairly simple to maintain and tailor to meet business needs	
+5.	Asset is easy to maintain and tailor to meet business needs; it is highly responsive to requirement changes
+
+
+-----ASSIGNED TREMAYNE	
 As a Business Architect, I want to be able to create an assessment of systems in PenFed Portfolio so that I can assess the business capabilities of each system
 •	User most fill in all required data before assessment can occur
 •	Information is stored in application database
 •	Following data is required:
 o	Functionality  ,  Usability
+
+Functionality 1-5
+1.	Provides no features needed by the users	
+2.	Provides limited features needed by users	
+3.	Provides some features needed by users	
+4.	Provides most features needed by users
+5.	Provides all features needed by users 
+Usability 1-5
+1.	The asset is difficult and/or cumbersome to use ,  negatively affecting productivity 
+2.	The asset is not user friendly, potentially making a user’s job more challenging at times	
+3.	The usability of the asset is average
+4.	The usability of the asset is strong – making the user’s job less  difficult 
+5.	The usability of the asset greatly enhances a user’s productivity 
+
 
 Reuse  1-5
 1)	Asset is not used across business areas or business domains
@@ -148,24 +196,8 @@ o	View by systems
 
  
 Scoring Model
-Agility 1-5
-1.	Asset takes a very long time to respond to requirement changes
-2.	Asset takes a significant amount of time to respond to requirement changes	
-3.	Asset takes a moderate amount of time to respond to requirement changes	
-4.	Asset is fairly simple to maintain and tailor to meet business needs	
-5.	Asset is easy to maintain and tailor to meet business needs; it is highly responsive to requirement changes
-Functionality 1-5
-1.	Provides no features needed by the users	
-2.	Provides limited features needed by users	
-3.	Provides some features needed by users	
-4.	Provides most features needed by users
-5.	Provides all features needed by users 
-Usability 1-5
-1.	The asset is difficult and/or cumbersome to use ,  negatively affecting productivity 
-2.	The asset is not user friendly, potentially making a user’s job more challenging at times	
-3.	The usability of the asset is average
-4.	The usability of the asset is strong – making the user’s job less  difficult 
-5.	The usability of the asset greatly enhances a user’s productivity 
+
+
 
 Cost - ??? Need to figure out what cost we are capturing??
 1)	0  -  $1M
@@ -190,28 +222,7 @@ Life Stage 1-5
 4)	Asset is an established product , from an established supplier that PenFed has experience 
 5)	Asset is an established product , from an strategic supplier that PenFed has experience
 
-Availability 
-1)	Asset cannot support PenFed’s availability requirements and there is no plan in place to address gap
-2)	Asset cannot support PenFed’s availability requirements and there is a plan in place to address gap
-5)	Asset can support PenFed’s availability requirements
 
-Scalability 
-1)	Asset cannot scale to be meet expected volumes
-2)	Asset can scale to meet expected volumes but requires significate investment
-3)	Asset can scale to meet expected volumes but requires moderate investment
-4)	Asset can scale to meet expected volumes but requires minor investment
-5)	Asset can scale to meet expected volumes with no investment
-Security
-1)	Asset does not comply with security standards and no plan is in place to  address gap
-2)	Asset does not comply with security standards but a plan to address gap is in place
-5)	Asset complies with security standards
-
-Supportability 
-1)	Asset is highly unstable and requires major maintenance effort
-2)	Asset is fairly unstable and requires significant maintenance effort
-3)	Asset is moderately stable and requires moderate maintenance effort
-4)	Asset is somewhat unstable but required maintenance is minor
-5)	Asset is stable and has few or no issues at all to keep it running
 
 
 Examples Reports/Dashboards
