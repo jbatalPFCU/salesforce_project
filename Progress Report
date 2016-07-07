@@ -97,6 +97,12 @@ As a Business Architect, I want to be able to create an assessment of systems in
 •	Following data is required:
 o	Functionality  ,  Usability
 
+Reuse  1-5
+1)	Asset is not used across business areas or business domains
+2)	Asset has the ability to support two business domains
+3)	Asset has the ability to support multiple business domains
+4)	Asset has the ability to support multiple business areas
+5)	Asset has the ability to support the enterprise
 
 ===============================Unworked===============================
 
@@ -168,12 +174,7 @@ Cost - ??? Need to figure out what cost we are capturing??
 4)	$5M - $10M
 5)	$10M+
 
-Reuse  1-5
-1)	Asset is not used across business areas or business domains
-2)	Asset has the ability to support two business domains
-3)	Asset has the ability to support multiple business domains
-4)	Asset has the ability to support multiple business areas
-5)	Asset has the ability to support the enterprise
+
 
 Architecture Alignment 1-5
 1)	Asset does not align with architecture standards (waiver does not exist)
