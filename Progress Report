@@ -1,0 +1,248 @@
+===============================COMPLETE===============================
+
+As a Technical Architect, I want to be able to add systems to PenFed’s Portfolio so that an accurate list of systems used by PenFed is maintained
+•	User most fill in all required data before system can be added
+•	Information is stored in application database
+•	Following data is required:
+o	name, short name, description , TIME rating, deployment model (on premise, cloud, etc.) , software type (open source, vendor, custom built, etc.), if software type is vendor include vendor name
+•	Following data is optional
+o	Computing type ( distributed, mainframe), database/storage (SQL Server, Oracle , UDB ,etc. ),language (Java, Cobol, .NET, etc.) , operational owner, technical architect assigned, business owner, notes
+As a Technical Architect, I want to be able create domains so that I can group systems together based on business capabilities
+•	User most fill in all required data before system can be added
+•	Information is stored in application database
+•	Following data is required:
+o	name, short name, description 
+As a Technical Architect, I want to be able to create business areas so that I can group like domains together
+•	User most fill in all required data before business are can be added
+•	Information is stored in application database
+•	Following data is required:
+o	name, short name, description 
+
+As a Technical Architect, I want to be able to create organizations so that I can group business areas under the organization they support 
+•	User most fill in all required data before organization can be added
+•	Information is stored in application database
+•	Following data is required:
+o	name, short name, description 
+As a Technical Architect, I want to be able to assign domains to business areas so that I document which domains support a business areas
+•	User most fill in all required data before assignment can occur
+•	Information is stored in application database
+•	Following data is required:
+o	Business area, Domain, weight (%)
+As a Technical Architect, I want to be able to assign business areas to organizations so that I document which business areas support an organization
+•	User most fill in all required data before assignment can occur
+•	Information is stored in application database
+•	Following data is required:
+o	Organizations, Business area, weight (%)
+As a Technical Architect, I want to be able to assign systems to domains so that I document which systems support a domain
+•	User most fill in all required data before assignment can occur
+•	Information is stored in application database
+•	Following data is required:
+o	Domain, system weight (%)
+
+As a Business Architect, I want to be able create business capabilities so that I can document the business capabilities needed to support PenFed’ Business vision 
+•	User most fill in all required data before business capability can be added
+•	Information is stored in application database
+•	Following data is required:
+o	Enterprise group (drop down) , name, short name, description  
+
+As a Business Architect, I want to be able create business capabilities so that I can document the business capabilities needed to support PenFed’ Business vision 
+•	User most fill in all required data before assignment can occur
+•	Information is stored in application database
+•	Following data is required:
+o	Business capability , system , comment
+
+As a Business Architect, I want to be able assign business capabilities to systems so that I can document which business capabilities each system provides 
+•	User most fill in all required data before assessment can occur
+•	Information is stored in application database
+•	Following data is required:
+o	Resue, architecture alignment, life stage, security
+
+As a Technical Architect, I want to be able to create an assessment of systems in PenFed’s Portfolio so that I can assess the health of each system
+•	User most fill in all required data before assessment can occur
+•	Information is stored in application database
+•	Following data is required:
+o	Reuse, architecture alignment, life stage, security
+
+As a Technical Architect, I want to be able to create a domain recommendation so that I can document ways to improve the health of a given domain
+•	User most fill in all required data before assessment can occur
+•	Information is stored in application database
+•	Following data is required:
+o	Name ,  Description , ranking/order
+
+As a Technical Architect, I want to be able to create a business area recommendation so that I can document ways to improve the health of a given business area
+•	User most fill in all required data before assessment can occur
+•	Information is stored in application database
+•	Following data is required:
+o	Name ,  Description , ranking/order
+
+
+As a Technical Architect, I want to be able to create a system recommendation so that I can document ways to improve the health of a given system
+•	User most fill in all required data before assessment can occur
+•	Information is stored in application database
+•	Following data is required:
+o	Name ,  Description , ranking/order
+
+
+===============================In Progress===============================
+
+As an application owner, I want to be able to create an assessment of systems in PenFed Portfolio so that I can assess the operation of each system
+•	User most fill in all required data before assessment can occur
+•	Information is stored in application database
+•	Following data is required:
+o	Availability , Scalability , Supportability , Agility
+•	
+As a Business Architect, I want to be able to create an assessment of systems in PenFed Portfolio so that I can assess the business capabilities of each system
+•	User most fill in all required data before assessment can occur
+•	Information is stored in application database
+•	Following data is required:
+o	Functionality  ,  Usability
+
+
+===============================Unworked===============================
+
+As a Technical Architect, I want to be able to assign a TIME (Tolerate, Invest, Migrate, Eliminate) rating to systems in PenFed’s Application Portfolio so that I can communicate the value and high level direction of each system
+
+
+===============================Unassigned===============================
+
+
+
+
+As a user, I want to be able create investments so I can document efforts have funding vehicles are 
+•	User most fill in all required data before investment can be created
+•	Information is stored in application database
+•	Following data is required:
+o	Name ,  Description , size (small , med, large, XL),  
+•	Following data is optional
+o	Year and quarter of start, year and quarter of end of investment
+
+As a user, I want to be able assign investments to recommendation (business area, domain or systems) so that I can document which recommendations have funding vehicles 
+•	User most fill in all required data before investment assigned
+•	Information is stored in application database
+•	Following data is required:
+o	Investment , recommendation  
+
+As a user, I want to be able to view the assessment for all systems that belong to a selected organization so that I can assess the health of an organization
+•	User is able to filter by  org
+•	User is able select output data:
+o	View by systems 
+o	View by domains
+o	View by business area
+
+As a user, I want to be able to view the assessment for all systems that belong to selected business area so that I can assess the health of a business area 
+•	User is able to filter by  business area
+•	User is able select output data:
+o	View by systems 
+o	View by domains
+
+As a user, I want to be able to view the assessment for all systems that belong to selected domain area so that I can assess the health of a domain area
+•	User is able to filter by  domain area
+•	User is able select output data:
+o	View by systems 
+
+ 
+Scoring Model
+Agility 1-5
+1.	Asset takes a very long time to respond to requirement changes
+2.	Asset takes a significant amount of time to respond to requirement changes	
+3.	Asset takes a moderate amount of time to respond to requirement changes	
+4.	Asset is fairly simple to maintain and tailor to meet business needs	
+5.	Asset is easy to maintain and tailor to meet business needs; it is highly responsive to requirement changes
+Functionality 1-5
+1.	Provides no features needed by the users	
+2.	Provides limited features needed by users	
+3.	Provides some features needed by users	
+4.	Provides most features needed by users
+5.	Provides all features needed by users 
+Usability 1-5
+1.	The asset is difficult and/or cumbersome to use ,  negatively affecting productivity 
+2.	The asset is not user friendly, potentially making a user’s job more challenging at times	
+3.	The usability of the asset is average
+4.	The usability of the asset is strong – making the user’s job less  difficult 
+5.	The usability of the asset greatly enhances a user’s productivity 
+
+Cost - ??? Need to figure out what cost we are capturing??
+1)	0  -  $1M
+2)	$1M - $3M
+3)	$3M - $5M
+4)	$5M - $10M
+5)	$10M+
+
+Reuse  1-5
+1)	Asset is not used across business areas or business domains
+2)	Asset has the ability to support two business domains
+3)	Asset has the ability to support multiple business domains
+4)	Asset has the ability to support multiple business areas
+5)	Asset has the ability to support the enterprise
+
+Architecture Alignment 1-5
+1)	Asset does not align with architecture standards (waiver does not exist)
+2)	Asset does not align with architectural standards (waiver exists)
+3)	Asset aligns with all architecture principles and standards but is not a target state platform
+4)	Asset aligns with all architecture principles and standards and is a target state platform
+5)	Asset aligns with all architecture principles and standards and is a target state platform from a strategic partner
+
+Life Stage 1-5
+1)	Asset is new in all three areas : new to PenFed,  new to Supplier, new to industry --(bleeding edge)
+2)	Asset is new in two of three areas: new PenFed,  new to Supplier, new to industry -- (cutting edge)
+3)	Asset is new in one of three areas: new PenFed,  new to Supplier and a new industry offering 
+4)	Asset is an established product , from an established supplier that PenFed has experience 
+5)	Asset is an established product , from an strategic supplier that PenFed has experience
+
+Availability 
+1)	Asset cannot support PenFed’s availability requirements and there is no plan in place to address gap
+2)	Asset cannot support PenFed’s availability requirements and there is a plan in place to address gap
+5)	Asset can support PenFed’s availability requirements
+
+Scalability 
+1)	Asset cannot scale to be meet expected volumes
+2)	Asset can scale to meet expected volumes but requires significate investment
+3)	Asset can scale to meet expected volumes but requires moderate investment
+4)	Asset can scale to meet expected volumes but requires minor investment
+5)	Asset can scale to meet expected volumes with no investment
+Security
+1)	Asset does not comply with security standards and no plan is in place to  address gap
+2)	Asset does not comply with security standards but a plan to address gap is in place
+5)	Asset complies with security standards
+
+Supportability 
+1)	Asset is highly unstable and requires major maintenance effort
+2)	Asset is fairly unstable and requires significant maintenance effort
+3)	Asset is moderately stable and requires moderate maintenance effort
+4)	Asset is somewhat unstable but required maintenance is minor
+5)	Asset is stable and has few or no issues at all to keep it running
+
+
+Examples Reports/Dashboards
+Bubble Chart (could use IT value and Business Value as X/Y axis for systems, domain or business area)
+ 
+
+Example Summary Reports/Dashboard
+Org Report
+Organization	Business Area	Rating
+PenFed	--------------------	2.5
+ 	Product	2.6
+ 	Sales & Servicing	1.5
+ 	Risk Compliance	1.8
+ 	Business Support	4.0
+		
+ 
+Business Area Report
+		
+		
+Business Area	Domain	Rating
+Product	--------------------	2.6
+ 	Home Loan	2.6
+ 	Credit Card	1.5
+ 	Auto Loan	3.3
+ 	Deposits	3.1
+		
+Domain Report 		
+		
+Domain	System	Rating
+Home Loans	--------------------	2.6
+ 	UniFi	2.6
+ 	Fannie Mae	1.5
+ 	MortgageBot	3.3
+ 	Elynx	3.1
+
