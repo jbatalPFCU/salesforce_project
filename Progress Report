@@ -161,11 +161,6 @@ Usability 1-5
 
 As a Technical Architect, I want to be able to assign a TIME (Tolerate, Invest, Migrate, Eliminate) rating to systems in PenFed’s Application Portfolio so that I can communicate the value and high level direction of each system
 
-
-===============================In Progress===============================
-
-
------ASSIGNED JOHN---------
 As a user, I want to be able create investments so I can document efforts have funding vehicles are 
 •	User most fill in all required data before investment can be created
 •	Information is stored in application database
@@ -179,6 +174,13 @@ As a user, I want to be able assign investments to recommendation (business area
 •	Information is stored in application database
 •	Following data is required:
 o	Investment , recommendation 
+
+
+===============================In Progress===============================
+
+
+-----ASSIGNED JOHN---------
+
 
 -----ASSIGNED ANISHA-------
 
@@ -206,10 +208,6 @@ o	Investment , recommendation
 
 ===============================Unassigned===============================
 
-
-
-
- 
 
 As a user, I want to be able to view the assessment for all systems that belong to a selected organization so that I can assess the health of an organization
 •	User is able to filter by  org
