@@ -146,8 +146,6 @@ As a Business Architect, I want to be able to create an assessment of systems in
 •	Following data is required:
 o	Functionality  ,  Usability
 
-===============================In Progress===============================
-
 Functionality 1-5
 1.	Provides no features needed by the users	
 2.	Provides limited features needed by users	
@@ -161,17 +159,39 @@ Usability 1-5
 4.	The usability of the asset is strong – making the user’s job less  difficult 
 5.	The usability of the asset greatly enhances a user’s productivity 
 
------ASSIGNED ANISHA	
+===============================In Progress===============================
+
+
+-----ASSIGNED JOHN---------
+
+
+-----ASSIGNED ANISHa-------
+
+
+-----ASSIGNED TREMAYNE-----
+
+
+-----ASSIGNED TAWSIF-------
 
 
 ===============================Unworked===============================
 
-As a Technical Architect, I want to be able to assign a TIME (Tolerate, Invest, Migrate, Eliminate) rating to systems in PenFed’s Application Portfolio so that I can communicate the value and high level direction of each system
+
+-----ASSIGNED JOHN---------
+
+
+-----ASSIGNED ANISHa-------
+
+
+-----ASSIGNED TREMAYNE-----
+
+
+-----ASSIGNED TAWSIF-------
 
 
 ===============================Unassigned===============================
 
-
+As a Technical Architect, I want to be able to assign a TIME (Tolerate, Invest, Migrate, Eliminate) rating to systems in PenFed’s Application Portfolio so that I can communicate the value and high level direction of each system
 
 
 As a user, I want to be able create investments so I can document efforts have funding vehicles are 
