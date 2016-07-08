@@ -183,6 +183,10 @@ o	Investment , recommendation
 
 
 -----ASSIGNED ANISHA-------
+As a user, I want to be able to view the assessment for all systems that belong to selected domain area so that I can assess the health of a domain area
+•	User is able to filter by  domain area
+•	User is able select output data:
+o	View by systems 
 
 
 -----ASSIGNED TREMAYNE-----
@@ -222,12 +226,8 @@ As a user, I want to be able to view the assessment for all systems that belong 
 o	View by systems 
 o	View by domains
 
-As a user, I want to be able to view the assessment for all systems that belong to selected domain area so that I can assess the health of a domain area
-•	User is able to filter by  domain area
-•	User is able select output data:
-o	View by systems 
 
- 
+
 Scoring Model
 
 
