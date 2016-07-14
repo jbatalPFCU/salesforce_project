@@ -175,19 +175,24 @@ As a user, I want to be able assign investments to recommendation (business area
 •	Following data is required:
 o	Investment , recommendation 
 
+===============================Failed===============================
 
-===============================In Progress===============================
-
-
------ASSIGNED JOHN---------
-
----FAILED---
 Create System average (Still need technical and operational callback relationship)
 (VALUE(LEFT(TEXT( Business_Assesment__r.Business_Average__c    ),1)) + 
 VALUE(LEFT(TEXT( Technical_Assessment__r.Technical_Average__c ),1)) + 
 VALUE(LEFT(TEXT( Operational_Assessment__r.Operational_Average__c ),1)))
 / 3
 Salesforce does not support individual record retrieval. Issue is being re-examined and will be brought up during phone call with sales rep.
+
+
+===============================In Progress===============================
+
+
+-----ASSIGNED JOHN---------
+
+
+
+Domain - Channel Management: Fill all systems in domain with fake assessment data.
 
 -----ASSIGNED ANISHA-------
 As a user, I want to be able to view the assessment for all systems that belong to selected domain area so that I can assess the health of a domain area
@@ -198,6 +203,7 @@ o	View by systems
 
 -----ASSIGNED TREMAYNE-----
 
+Domain - Loans: Fill all systems in domain with fake assessment data.
 
 -----ASSIGNED TAWSIF-------
 
