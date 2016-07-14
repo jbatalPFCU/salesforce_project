@@ -175,6 +175,18 @@ As a user, I want to be able assign investments to recommendation (business area
 •	Following data is required:
 o	Investment , recommendation 
 
+
+Domain - Channel Management: Fill all systems in domain with fake assessment data.
+
+Domain - Loans: Fill all systems in domain with fake assessment data.
+
+As a user, I want to be able to view the assessment for all systems that belong to selected domain area so that I can assess the health of a domain area
+•	User is able to filter by  domain area
+•	User is able select output data:
+o	View by systems 
+
+
+
 ===============================Failed===============================
 
 Create System average (Still need technical and operational callback relationship)
@@ -190,23 +202,25 @@ Salesforce does not support individual record retrieval. Issue is being re-exami
 
 -----ASSIGNED JOHN---------
 
-
-
-Domain - Channel Management: Fill all systems in domain with fake assessment data.
+Reports & Dashboarding
 
 -----ASSIGNED ANISHA-------
-As a user, I want to be able to view the assessment for all systems that belong to selected domain area so that I can assess the health of a domain area
-•	User is able to filter by  domain area
-•	User is able select output data:
-o	View by systems 
 
+Finish fake assessments for all systems
+Change TIME rating at random distributions
+Create TEST systems for domains that do not have a system
 
 -----ASSIGNED TREMAYNE-----
 
-Domain - Loans: Fill all systems in domain with fake assessment data.
+Finish fake assessments for all systems
+Change TIME rating at random distributions
+Create TEST systems for domains that do not have a system
 
 -----ASSIGNED TAWSIF-------
 
+Finish fake assessments for all systems
+Change TIME rating at random distributions
+Create TEST systems for domains that do not have a system
 
 ===============================Unworked===============================
 
