@@ -186,6 +186,23 @@ As a user, I want to be able to view the assessment for all systems that belong 
 o	View by systems 
 
 
+Change TIME rating at random distributions
+Create TEST systems for domains that do not have a system
+
+As a user, I want to be able to view the assessment for all systems that belong to a selected organization so that I can assess the health of an organization
+•	User is able to filter by  org
+•	User is able select output data:
+o	View by systems 
+o	View by domains
+o	View by business area
+
+As a user, I want to be able to view the assessment for all systems that belong to selected business area so that I can assess the health of a business area 
+•	User is able to filter by  business area
+•	User is able select output data:
+o	View by systems 
+o	View by domains
+
+
 
 ===============================Failed===============================
 
@@ -207,20 +224,17 @@ Reports & Dashboarding
 -----ASSIGNED ANISHA-------
 
 Finish fake assessments for all systems
-Change TIME rating at random distributions
-Create TEST systems for domains that do not have a system
+
 
 -----ASSIGNED TREMAYNE-----
 
 Finish fake assessments for all systems
-Change TIME rating at random distributions
-Create TEST systems for domains that do not have a system
+
 
 -----ASSIGNED TAWSIF-------
 
 Finish fake assessments for all systems
-Change TIME rating at random distributions
-Create TEST systems for domains that do not have a system
+
 
 ===============================Unworked===============================
 
@@ -240,69 +254,7 @@ Create TEST systems for domains that do not have a system
 ===============================Unassigned===============================
 
 
-As a user, I want to be able to view the assessment for all systems that belong to a selected organization so that I can assess the health of an organization
-•	User is able to filter by  org
-•	User is able select output data:
-o	View by systems 
-o	View by domains
-o	View by business area
-
-As a user, I want to be able to view the assessment for all systems that belong to selected business area so that I can assess the health of a business area 
-•	User is able to filter by  business area
-•	User is able select output data:
-o	View by systems 
-o	View by domains
 
 
 
-Scoring Model
-
-
-
-Cost - ??? Need to figure out what cost we are capturing??
-1)	0  -  $1M
-2)	$1M - $3M
-3)	$3M - $5M
-4)	$5M - $10M
-5)	$10M+
-
-
-
-
-
-
-
-
-Examples Reports/Dashboards
-Bubble Chart (could use IT value and Business Value as X/Y axis for systems, domain or business area)
- 
-
-Example Summary Reports/Dashboard
-Org Report
-Organization	Business Area	Rating
-PenFed	--------------------	2.5
- 	Product	2.6
- 	Sales & Servicing	1.5
- 	Risk Compliance	1.8
- 	Business Support	4.0
-		
- 
-Business Area Report
-		
-		
-Business Area	Domain	Rating
-Product	--------------------	2.6
- 	Home Loan	2.6
- 	Credit Card	1.5
- 	Auto Loan	3.3
- 	Deposits	3.1
-		
-Domain Report 		
-		
-Domain	System	Rating
-Home Loans	--------------------	2.6
- 	UniFi	2.6
- 	Fannie Mae	1.5
- 	MortgageBot	3.3
- 	Elynx	3.1
 
